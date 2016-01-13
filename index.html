@@ -31,6 +31,7 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
+											<li><a href="#about-me" class="more scrolly">About me</a></li>
 											<li><a href="#one" class="more scrolly">Skills</a></li>
 											<li><a href="#two" class="more scrolly">Projects</a></li>
 											<li><a href="#footer" class="more scrolly">Contact</a></li>
@@ -46,18 +47,36 @@
 					<section id="banner">
 						<div class="inner">
 							<h2>Byron Sha</h2>
-							<p>Hi, I'm a software developer<br />
-							living in San Francisco, CA<br />
+							<p>Hi, I'm a software developer<br/>
+							   living in San Francisco, CA<br/>
 							</p>
 							<!-- <ul class="actions">
 								<li><a href="#" class="button special">Activate</a></li>
 							</ul> -->
 						</div>
-						<a href="#one" class="more scrolly">About me</a>
+						<a href="#about-me" class="more scrolly">Learn more</a>
 					</section>
 
+					<section id="about-me" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>About me</h2>
+							</header>
+							<div class="about-me">
+								<p>My interests outside of coding include fitness, nutrition,
+									 and UX Design. A couple of my favorite activities are
+									 exercising, playing No Limit Texas Hold 'em, and eating some
+									 delicious Korean spicy soft tofu stew. My favorite quote is,
+									 <i>"Hard work beats talent until talent works hard."</i>
+								</p>
+								<!-- <img id="chips" src="images/chips.png" alt="" /> -->
+						  </div>
+						</div>
+					</section>
+
+
 				<!-- One -->
-					<section id="one" class="wrapper style1 special">
+					<section id="one" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
 								<h2>Skills</h2>
@@ -78,91 +97,62 @@
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper alt">
-						<section id="projects">
-							<header id="projects" class="major">
-								<h2 id="projects">Projects</h2>
-							</header>
-						</section>
+					<section id="two" class="wrapper my-style special">
+						<header class="major">
+							<h2>Projects</h2>
+						</header>
+
 						<section class="spotlight">
 							<div class="image">
-								<img id="omnify" src="images/omnify.jpg" href="www.omnify.xyz" alt="" />
+								<img id="omnify" src="images/omnify.jpg" alt="" />
 							</div>
 							<div class="content">
-								<h2><a href="http://www.omnify.xyz">omnify</a></h2>
-								<p>Single page web app where users can manage and share personal photographs, built with Ruby on Rails and React.js</p>
-								<ul>
-									<li>Implements the Flux architecture to track the current session allowing users to log in or sign out from any page and dynamically update content accordingly</li>
-									<li>Integrates custom-built authentication system, hashing and salting passwords with BCrypt to securely store user account information</li>
-									<li>Incorporates the Cloudinary API to upload, store, and efficiently manipulate images before they are rendered</li>
+								<div class="left-align">
+									<h2><a href="http://www.omnify.xyz">omnify</a></h2>
+									<p>Single page web app where users can manage and share personal photographs, built with Ruby on Rails and React.js</p>
+									<ul>
+										<li>Implements the Flux architecture to track the current session allowing users to log in or sign out from any page and dynamically update content accordingly</li>
+										<li>Integrates custom-built authentication system, hashing and salting passwords with BCrypt to securely store user account information</li>
+										<li>Incorporates the Cloudinary API to upload, store, and efficiently manipulate images before they are rendered</li>
+									</ul>
+								</div>
 							</div>
 						</section>
+
 						<section class="spotlight">
 							<div class="image">
 								<img id="linedash" src="images/linedash.jpg" alt="" />
 							</div>
 							<div class="content">
-								<h2><a href="https://byronsha.github.io">Linedash</a></h2>
-								<p>A simple Javascript browser game that tests your reaction time</p>
-								<ul>
-									<li>Manipulates the DOM using jQuery</li>
-									<li>Animates elements with CSS</li>
-								</ul>
+								<div class="left-align">
+									<h2><a href="https://byronsha.github.io">Linedash</a></h2>
+									<p>A simple Javascript browser game that tests your reaction time</p>
+									<ul>
+										<li>Manipulates the DOM using jQuery</li>
+										<li>Animates elements with CSS</li>
+									</ul>
+								</div>
 							</div>
 						</section>
+
 						<section class="spotlight">
 							<div class="image">
 								<img id="linedash" src="images/chess.png" alt="" />
 							</div>
 							<div class="content">
-								<h2><a href="https://github.com/byronsha/chess">Chess</a></h2>
-								<p>Classic Chess made with Ruby</p>
-								<ul>
-									<li>Validation algorithm prevents illegal moves</li>
-									<li>Possible moves are highlighted in real time</li>
-								</ul>
+								<div class="left-align">
+									<h2><a href="https://github.com/byronsha/chess">Chess</a></h2>
+									<p>Classic Chess made with Ruby</p>
+									<ul>
+										<li>Validation algorithm determines legal moves and highlights them in real time</li>
+										<li>Deep duplicates the board to handle situations involving check</li>
+									</ul>
+								</div>
 							</div>
 						</section>
 					</section>
 
-				<!-- Three -->
-					<!-- <section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section> -->
-
-				<!-- CTA -->
+				<!-- Transparent style -->
 					<!-- <section id="cta" class="wrapper style4">
 						<div class="inner">
 							<h2>Download my resume</h2><br/>

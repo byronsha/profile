@@ -1,9 +1,23 @@
+.about-me {
+  width: 30vw;
+  text-align: justify;
+  margin: auto;
+}
+
+.about-me img {
+  background: none !important;
+  border: none !important;
+  width: 30vw;
+}
+
 .skill-list {
+  color: white;
   list-style-type: none;
   display: inline-block;
   text-align: center;
   font-size: 3.5em;
   padding: 0 0 0 0;
+  margin-top: .5em;
   margin-bottom: .5em;
 }
 
@@ -35,9 +49,17 @@ header#projects {
 }
 
 section#projects {
-  padding-top: 4em;
-  margin-bottom: 0em;
+  /*padding-top: 4em;
+  margin-bottom: 0em;*/
   padding-bottom: 1em;
   text-align: center;
 	background-color: rgba(0, 0, 0, 0.15);
+}
+
+.left-align {
+  text-align: left;
+}
+
+.my-style {
+  background: rgba(0, 0, 0, 0.15);
 }

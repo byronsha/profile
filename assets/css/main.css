@@ -2526,7 +2526,7 @@
 			flex-direction: row-reverse;*/
 		}
 
-		.spotlight:nth-child(1) {
+		/*.spotlight:nth-child(1) {
 			background-color: rgba(0, 0, 0, 0.15);
 		}
 
@@ -2540,7 +2540,7 @@
 
 		.spotlight:nth-child(4) {
 			background-color: rgba(0, 0, 0, 0.15);
-		}
+		}*/
 
 		.spotlight:nth-child(5) {
 			background-color: rgba(0, 0, 0, 0.225);
@@ -3160,7 +3160,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #64e864;
+		background: #56CA56;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
