@@ -26,14 +26,7 @@
   padding: 0 .25em .25em .25em;
 }
 
-.image img#omnify {
-  padding: 2em;
-  height: 50vh;
-  width: 50vh;
-  float: right;
-}
-
-.image img#linedash {
+.image img#project-image {
   padding: 2em;
   height: 50vh;
   width: 50vh;
